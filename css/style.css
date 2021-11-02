@@ -405,13 +405,6 @@ img{
     background-color: #CC9933;
 }
 
-.p-accom-special-link{
-    position: absolute;
-}
-
-.accom-special-link{
-    position: relative;
-}
 /*Contacts*/
 .section-contacts-full{
     display: flex;
