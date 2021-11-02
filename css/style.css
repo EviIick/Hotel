@@ -100,6 +100,12 @@ img{
     font-weight: normal;
     font-size: 16px;
     line-height: 16px;
+    transition: color .2s ease;
+}
+
+.nav-link:hover{
+    color: black;
+    border-bottom: 1px solid black;
 }
 
 .header-btn{
@@ -113,20 +119,28 @@ img{
     box-sizing: border-box;
     border-radius: 10px;
     padding: 13px;
-}
-
-.btn2{
-   margin-left: 40px;
-}
-
-.btn-link{
     color: #CC9933;
     font-family: Muller;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 16px;
+    transition-property: color, background-color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    transform: scale(1);
 }
+
+.btn2{
+   margin-left: 40px;
+}
+
+.btn:hover{
+    background-color:#CC9933;
+    color: white;
+}
+
+
 
 /*Special*/
 .section-special-list{
@@ -381,8 +395,23 @@ img{
     border-radius: 10px;
     margin-left: 45px;
     margin-bottom: 41px;
+    transition-property: color, background-color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
+.accom-link:hover{
+    color:white;
+    background-color: #CC9933;
+}
+
+.p-accom-special-link{
+    position: absolute;
+}
+
+.accom-special-link{
+    position: relative;
+}
 /*Contacts*/
 .section-contacts-full{
     display: flex;
@@ -505,7 +534,15 @@ small{
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 10px
+    margin: 0px 10px;
+    transition-property: color, background-color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.contacts-link:hover{
+    background-color: #CC9933;
+    color:white;
 }
 
 .section-contacts-image{
@@ -674,4 +711,12 @@ input::-webkit-inner-spin-button {
     background: #FFFFFF;
     cursor: pointer;
     color: #CC9933;
+    transition-property: color, background-color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.button-submit:hover{
+    color: white;
+    background-color: #CC9933;
 }
